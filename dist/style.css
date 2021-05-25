@@ -1,23 +1,63 @@
+/* sky blue : #2DC7FF 
+paradisePink : #EA526F
+Ghost White : #FAFAFF
+Eerie black #1C1C1C
+Purple : #5C2751 
+*/
+body{
+  background: #EA526F;  
+}
 #container{
     display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    height: 500px;
+    flex-wrap: wrap;
 }
 .item{
     display:flex;
+    font-family: Georgia;
     flex-direction:column;
-    border: 2px solid black;
+    background: white;
+    border: 2px solid  #5C2751;
     height: 100px;
     width: 200px;
-    border-radius: 4px;
     margin: 10px;
+    border-radius:10px;
+    
+    
+}
+.item:hover{
+    box-shadow: 10px 10px;
 }
 #name{
     width: 100%; 
     font-size: 30px;
-
 }
 #sideBar{
     float: left;
-    width: 100px;
+    width: 200px;
     height: 500px;
-    border:1px solid black;
+    border:1px solid rgb(173, 173, 173);
+    
+}
+.addButton{
+    height: 50px;
+    color: black;
+    box-shadow: 1px 1px;
+    text-align: center;
+    margin: 10px; 
+    background: white;
+}
+.addButton:hover{
+    box-shadow: 4px 4px;
+
+}
+#projectList{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.FormDiv{
+    padding:20px;
+    border: 1px solid;
 }

@@ -5,7 +5,30 @@
         <link rel = 'stylesheet' href = 'style.css'>
     </head>
     <body>
-        <div id = 'sideBar'></div>
+        <div id = 'sideBar'>
+            <div class = "addButton" id = 'addItemButton'>Click Here to add an Event</div>
+            <div class = "addButton" id = 'addProjectButton'>Click Here to add a project</div>
+            <div id = 'formsContainer'>
+                <div id = 'nameInputDiv' class = 'inputDiv'>
+                    Name of Event:
+                    <input id = 'nameInput' class = 'inputForm'>
+                </div>
+                <div id = 'timeInputDiv' class = 'inputDiv'>
+                    Time of Event:
+                    <input id = 'timeInput' class = 'inputForm'>
+                </div>
+                <div id = 'dateInputDiv' class = 'inputDiv'>
+                    Date of Event:
+                    <input id = 'dateInput' class = 'inputForm'>
+                </div>
+                <div id = 'detailsInputDiv' class = 'inputDiv'>
+                    Event Details:
+                    <input id = 'detailsInput' class = 'inputForm'>
+                </div>
+                <button id = 'createEventButton'>Click Here!</button>
+            </div>
+            <div id = 'projectList'>Projects</div>
+        </div>
         <div id = 'container'>
             <div id = 'itemContainer'>
                 <div class = 'item'>

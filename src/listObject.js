@@ -1,11 +1,12 @@
 class item{
-constructor(name, date, time, details){
+constructor(name, date, time, details, project){
     this.name = name;
     this.date = date;
     this.time = time;
     this.details = details;
-    
-}}
+    this.project = project; 
+}
+}
 function createElementFromObject(item, parent){
     const itemContainer = document.createElement('div');
     itemContainer.classList = 'item';
